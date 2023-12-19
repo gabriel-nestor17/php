@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(142, 131, 151);
+    margin: 10px ;
+    text-align: center;
+}
+
+.box {
+    background-color: blue;
+    height: 650px;
+    display: grid;
+    grid-template-areas: "ti ti ti"
+                          "cc cc md"
+                          "ro ro ro";
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 80% 20%; 
+    gap: 10px;                     
+
+}
+
+    .ti {
+        grid-area: ti;
+        background-color: rgba(241, 113, 63, 0.829);
+
+    }
+
+    
+    .cc {
+        grid-area: cc;
+        background-color: aqua;
+        display: flex;
+        
+    }
+
+
+    .b1{
+        background-color: black;
+        height: 175px;
+        width: 400px;
+    }
+
+
+    .b2{
+        background-color: rgb(7, 116, 34);
+        height: 175px;
+        width: 400px;
+    }
+
+
+    .b3{
+        background-color: rgb(235, 15, 99);
+        height: 175px;
+        width: 400px;
+    }
+
+    
+    .md {
+        grid-area: md;
+        background-color: blue;
+        
+    }
+
+    
+    .ro {
+        grid-area: ro;
+        background-color: bisque;
+        display: flex; 
+    }
+
+
+    .r1{
+      background-color: blue;
+      height: 200px;
+      width: 500px;
+    }
+
+
+    
+
+    .r2{
+        background-color: rgb(109, 141, 33);
+        height: 200px;
+        width: 500px;
+    }
+
+
+    
+
+    .r3{
+        background-color: rgb(85, 12, 43);
+        height: 200px;
+        width: 500px;
+    }
+
+
+    
+
+
+
+
+
