@@ -1,0 +1,48 @@
+body{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    ]
+}
+
+.box{
+    height: 750px;
+    display: grid;
+    grid-template-areas:"he he he " 
+                         "me ma ri"
+                         "me fo fo";
+    grid-template-columns: 25% 50% 255;
+    grid-template-rows: 20% 60% 20%;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.he{
+    grid-area: he;
+  background-color: rgb(161, 185, 230);
+}
+
+.me{
+    grid-area:me ;
+    background-color:rgb(161, 185, 230) ;
+    
+}
+
+.ma{
+    grid-area: ma;
+    background-color: rgb(161, 185, 230);
+}
+
+.ri{
+    grid-area: ri;
+    background-color: rgb(161, 185, 230);
+    
+}
+
+.fo{
+    grid-area: fo;
+    background-color: rgb(161, 185, 230);
+    
+}

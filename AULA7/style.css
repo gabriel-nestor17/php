@@ -1,0 +1,23 @@
+.box{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto ;
+    gap: 15px;
+    background-color: rgba(90, 8, 223, 0.808);
+    height: 700px;
+    padding: 10px;
+    width: auto;
+
+}
+
+  div{
+    background-color: rgb(9, 93, 248);
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.i8{
+    grid-area: 1 / 2 / 5 / 6 ;
+    background-color: aliceblue;
+    ;
+}

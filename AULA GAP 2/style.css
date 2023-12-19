@@ -1,0 +1,58 @@
+body{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+.box{
+    height: 700px;
+    display: grid;
+    grid-template-areas:"n1 n1 n2" 
+                         "n3 n4 n5 "
+                         "n6 n7 n8 ";
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 25% 50% 25%;
+    gap: 20px;
+    text-align: center;
+}
+
+.n1{
+    grid-area: n1;
+    background-color: rgb(161, 185, 230);
+}
+
+.n2{
+    grid-area: n2;
+    background-color: rgb(161, 185, 230);
+}
+
+.n3{
+    grid-area: n3;
+    background-color: rgb(161, 185, 230);
+}
+
+.n4{
+    grid-area: n4;
+    background-color: rgb(161, 185, 230);
+}
+
+.n5{
+    grid-area: n5;
+    background-color: rgb(161, 185, 230);
+}
+
+.n6{
+    grid-area: n6;
+    background-color: rgb(161, 185, 230);
+}
+
+.n7{
+    grid-area: n7;
+    background-color: rgb(161, 185, 230);
+}
+
+.n8{
+    grid-area: n8;
+    background-color: rgb(161, 185, 230);
+}

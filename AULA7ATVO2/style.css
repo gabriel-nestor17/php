@@ -1,0 +1,74 @@
+
+body{
+    background-color: blue;
+    height: 0px;
+    padding: 0px;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+
+
+.box {
+    display: grid;
+    grid-template-areas: "to to to "
+                           "ce cp cd"
+                           "ro ro ro";
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 60% 20%;
+}
+
+.to{
+    grid-area: to;
+    background-color: rgb(226, 128, 71);
+    height: 700px; 
+    display: grid;
+    grid-template-areas: "p1 p2 p3 p4";
+    grid-template-columns: 25% 25% 25% 25%;
+    
+
+}
+
+.p1{
+background-color: bisque;
+grid-area: p1;
+}
+
+.p2{ 
+    background-color: brown;
+    grid-area: p2;
+}
+
+.p3{
+    background-color: rgb(33, 44, 44);
+    grid-area: p3;
+}
+
+.p4{
+    background-color: aqua;
+    grid-area: p4;
+}
+
+.ce{
+    grid-area: ce;
+    background-color: pink;
+}
+    
+}
+
+.cp{
+    grid-area: cp;
+    background-color: rgb(24, 73, 231);
+}
+
+.cd{
+    grid-area: cd;
+    background-color: green;
+}
+
+.ro{
+    grid-area: ro;
+    background-color: aqua;
+}

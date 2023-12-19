@@ -1,0 +1,42 @@
+body{
+    background-color: blue;
+    border: 3px solid lavenderblush;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+
+}
+
+.box{
+    background-color: rgb(233, 66, 44);
+    height: 750px;
+    display: grid;
+    grid-template-areas: "ti ti ti"
+                        "me co md";
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 60% 20% ;
+}
+
+.ti{
+  grid-area: ti;
+  background-color: rgb(61, 48, 48);
+  
+}
+
+.me{grid-area: me;
+    background-color: green;
+    
+}
+
+.co{
+  grid-area: co;
+  background-color: black;
+  color: aliceblue;
+    
+}
+
+.md{
+    grid-area: md;
+    background-color: beige;
+    
+}
